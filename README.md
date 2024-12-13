@@ -5,6 +5,8 @@ Monocular depth estimation and image deblurring are two fundamental tasks in com
 
 [Paper](https://ieeexplore.ieee.org/abstract/document/10158786)
 
+Our implementation is based on [D3NET](https://github.com/marcelampc/d3net_depth_estimation), so please don't please forget to cite them. 
+
 ## Repository Requirements
 
 ## Data Organization

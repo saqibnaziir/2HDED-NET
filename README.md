@@ -5,7 +5,6 @@ Monocular depth estimation and image deblurring are two fundamental tasks in com
 
 [Paper](https://ieeexplore.ieee.org/abstract/document/10158786)
 
-Our implementation is based on [D3NET](https://github.com/marcelampc/d3net_depth_estimation), so please don't please forget to cite them. 
 
 ## Repository Requirements
 
@@ -71,6 +70,11 @@ To use this repository, follow these steps:
 
 5. **Evaluate the Model**:
    After training, you can evaluate the model using the evaluation scripts provided in the `/training` directory.
+
+## Acknowlegements
+
+The structure of this codebase is borrowed from [D3NET](https://github.com/marcelampc/d3net_depth_estimation).
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

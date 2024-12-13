@@ -5,13 +5,13 @@ Monocular depth estimation and image deblurring are two fundamental tasks in com
 
 [Paper](https://ieeexplore.ieee.org/abstract/document/10158786)
 
-# Repository Requirements
+## Repository Requirements
 
-# Data Organization
+## Data Organization
 
-# Usage
+## Usage
 
-# Cite
+## Cite
 
 Please consider citing our work if you find it useful:
 
@@ -23,4 +23,12 @@ Please consider citing our work if you find it useful:
   pages={607--619},
   year={2023},
   publisher={IEEE}
+}
+> @inproceedings{nazir20222hded,
+  title={2HDED: Net for joint depth estimation and image deblurring from a single out-of-focus image},
+  author={Nazir, Saqib and Vaquero, Lorenzo and Mucientes, Manuel and Brea, V{\'\i}ctor M and Coltuc, Daniela},
+  booktitle={2022 IEEE International Conference on Image Processing (ICIP)},
+  pages={2006--2010},
+  year={2022},
+  organization={IEEE}
 }

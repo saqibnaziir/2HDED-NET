@@ -15,7 +15,7 @@ To run this project, you will need the following software and libraries:
 - **Required Libraries**:
   - `numpy`
   - `pandas`
-  - `tensorflow` or `pytorch` (depending on your implementation)
+  - `pytorch` (depending on your implementation)
   - `scikit-learn`
   - `matplotlib`
   

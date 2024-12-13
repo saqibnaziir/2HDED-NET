@@ -13,6 +13,11 @@ Our implementation is based on [D3NET](https://github.com/marcelampc/d3net_depth
 
 ## Usage
 
+## License
+The 2HDED:NET code is released using the UPB license.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
 ## Cite
 
 Please consider citing our work if you find it useful:

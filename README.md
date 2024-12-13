@@ -9,14 +9,72 @@ Our implementation is based on [D3NET](https://github.com/marcelampc/d3net_depth
 
 ## Repository Requirements
 
+To run this project, you will need the following software and libraries:
+
+- **Python**: Version 3.6 or higher
+- **Required Libraries**:
+  - `numpy`
+  - `pandas`
+  - `tensorflow` or `pytorch` (depending on your implementation)
+  - `scikit-learn`
+  - `matplotlib`
+  
+You can install the required libraries using pip. Create a virtual environment and run:
+
+bash
+
+pip install -r requirements.txt
+
 ## Data Organization
 
+The data for this project should be organized in the following structure:
+
+/data
+/raw
+      [raw data files]
+/processed
+      [processed data files]
+/dataloader
+      [data loading scripts]
+/network
+      [network architecture scripts]
+/training
+      [training scripts]
+
+
+- **/data/raw**: Place your raw data files here.
+- **/data/processed**: This folder will contain processed data files that are ready for training.
+- **/dataloader**: Contains scripts for loading and preprocessing data.
+- **/network**: Contains the architecture of the neural network.
+- **/training**: Contains scripts for training the model.
+
 ## Usage
+To use this repository, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/2HDED-NET.git
+   cd 2HDED-NET
+   ```
+
+2. **Install Requirements**:
+   Make sure to install the required libraries as mentioned in the **Repository Requirements** section.
+
+3. **Prepare Your Data**:
+   Place your raw data files in the `/data/raw` directory. Run the data processing scripts located in the `/dataloader` directory to preprocess your data.
+
+4. **Train the Model**:
+   Navigate to the `/training` directory and run the training script:
+   ```bash
+   python train.py
+   ```
+
+5. **Evaluate the Model**:
+   After training, you can evaluate the model using the evaluation scripts provided in the `/training` directory.
 
 ## License
-The 2HDED:NET code is released using the UPB license.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 ## Cite
 

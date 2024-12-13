@@ -53,7 +53,7 @@ To use this repository, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/2HDED-NET.git
+   git clone https://github.com/saqibnaziir/2HDED-NET.git
    cd 2HDED-NET
    ```
 

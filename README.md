@@ -15,7 +15,7 @@ Monocular depth estimation and image deblurring are two fundamental tasks in com
 
 Please consider citing our work if you find it useful:
 
-@article{nazir2023depth,
+> @article{nazir2023depth,
   title={Depth estimation and image restoration by deep learning from defocused images},
   author={Nazir, Saqib and Vaquero, Lorenzo and Mucientes, Manuel and Brea, V{\'\i}ctor M and Coltuc, Daniela},
   journal={IEEE Transactions on Computational Imaging},

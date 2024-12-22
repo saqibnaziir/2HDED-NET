@@ -67,7 +67,7 @@ To use this repository, follow these steps:
 4. **Train the Model**:
    Navigate to the `/training` directory and run the training script:
    ```bash
-   python train.py
+   python main.py
    ```
 
 5. **Evaluate the Model**:

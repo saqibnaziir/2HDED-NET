@@ -30,19 +30,18 @@ pip install -r requirements.txt
 
 The data for this project should be organized in the following structure:
 
-/datasets
-  /std_datasets
-    /nyu_dataset
-      /aif
-        /train
-        /test
-      /depth
-        /train
-        /test
-      /rgb
-        /train
-        /test
-
+- **/datasets**: Root folder for all datasets.
+  - **/std_datasets**: Standard datasets.
+    - **/nyu_dataset**: NYU dataset.
+      - **/aif**: All-in-focus images.
+        - **/train**: Training images.
+        - **/test**: Testing images.
+      - **/depth**: Depth images.
+        - **/train**: Training images.
+        - **/test**: Testing images.
+      - **/rgb**: RGB images.
+        - **/train**: Training images.
+        - **/test**: Testing images.
 
 %- **/data/raw**: Place your raw data files here.
 %- **/data/processed**: This folder will contain processed data files that are ready for training.

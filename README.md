@@ -30,24 +30,25 @@ pip install -r requirements.txt
 
 The data for this project should be organized in the following structure:
 
-/data
-/raw
-      [raw data files]
-/processed
-      [processed data files]
-/dataloader
-      [data loading scripts]
-/network
-      [network architecture scripts]
-/training
-      [training scripts]
+/datasets
+  /std_datasets
+    /nyu_dataset
+      /aif
+        /train
+        /test
+      /depth
+        /train
+        /test
+      /rgb
+        /train
+        /test
 
 
-- **/data/raw**: Place your raw data files here.
-- **/data/processed**: This folder will contain processed data files that are ready for training.
-- **/dataloader**: Contains scripts for loading and preprocessing data.
-- **/network**: Contains the architecture of the neural network.
-- **/training**: Contains scripts for training the model.
+%- **/data/raw**: Place your raw data files here.
+%- **/data/processed**: This folder will contain processed data files that are ready for training.
+%- **/dataloader**: Contains scripts for loading and preprocessing data.
+%- **/network**: Contains the architecture of the neural network.
+%- **/training**: Contains scripts for training the model.
 
 ## Usage
 To use this repository, follow these steps:

@@ -43,12 +43,6 @@ The data for this project should be organized in the following structure:
         - **/train**: Training images.
         - **/test**: Testing images.
 
-%- **/data/raw**: Place your raw data files here.
-%- **/data/processed**: This folder will contain processed data files that are ready for training.
-%- **/dataloader**: Contains scripts for loading and preprocessing data.
-%- **/network**: Contains the architecture of the neural network.
-%- **/training**: Contains scripts for training the model.
-
 ## Usage
 To use this repository, follow these steps:
 

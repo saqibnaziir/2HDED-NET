@@ -1,23 +1,25 @@
-## **2HDED-NET** 
-Depth estimation and image restoration by deep learning from defocused images:
+# **2HDED-NET** 
+
 
 Monocular depth estimation and image deblurring are two fundamental tasks in computer vision, given their crucial role in understanding 3D scenes. Performing any of them by relying on a single image is an ill-posed problem. The recent advances in the field of Deep Convolutional Neural Networks (DNNs) have revolutionized many tasks in computer vision, including depth estimation and image deblurring. When it comes to using defocused images, the depth estimation and the recovery of the All-in-Focus (Aif) image become related problems due to defocus physics. Despite this, most of the existing models treat them separately. There are, however, recent models that solve these problems simultaneously by concatenating two networks in a sequence to first estimate the depth or defocus map and then reconstruct the focused image based on it. We propose a DNN that solves the depth estimation and image deblurring in parallel. Our Two-headed Depth Estimation and Deblurring Network (2HDED:NET) extends a conventional Depth from Defocus (DFD) networks with a deblurring branch that shares the same encoder as the depth branch. The proposed method has been successfully tested on two benchmarks, one for indoor and the other for outdoor scenes: NYU-v2 and Make3D. Extensive experiments with 2HDED:NET on these benchmarks have demonstrated superior or close performances to those of the state-of-the-art models for depth estimation and image deblurring.
 
 [Paper](https://ieeexplore.ieee.org/abstract/document/10158786)
 
 
-## Repository Requirements
+## **Repository Requirements**
 
 To run this project, you will need the following software and libraries:
 
 - **Python**: Version 3.6 or higher
 - **Required Libraries**:
-  - `numpy`
-  - `pandas`
-  - `pytorch` (depending on your implementation)
-  - `scikit-learn`
+  - `Linux`
+  - `Python 3.6+`
+  - `PyTorch 1.9`
+  - `Cuda 10.2`
+  - `Visdom`
   - `matplotlib`
   
+## **Installation**
 You can install the required libraries using pip. Create a virtual environment and run:
 
 bash
@@ -93,8 +95,6 @@ Please consider citing our work if you find it useful:
   year={2023},
   publisher={IEEE}
 }
-
-
 
 
 > @inproceedings{nazir20222hded,
